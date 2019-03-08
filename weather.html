@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<!--to add html structure !+ tab-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+</head>
+<body>
+        <div class="search">
+                <input type="text" placeholder="Enter City Name" id="search-txt">
+                <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+              </div>
+    <div id="location">
+        <h1 class="location-timezone">TimeZone</h1>
+    </div>
+    <div class="temperature">
+        <div class="degree">
+            <h2 class="temperature-degree"></h2>
+        <span>Celcius</span>
+    </div>
+    <div class="description">freezing cold</div>
+    <div class="time">
+        <h1>Time</h1>
+    </div>
+        <button id="getWeather" onclick="getWeather()">Get Current Weather!</button>           
+ 
+    </div>
+    <p id="weather-summary"></p>
+
+</body>
+<link rel="stylesheet" type="text/css" href="weather-css.css">
+    <script type="text/javascript" src="weather.js"></script>
+</html>
